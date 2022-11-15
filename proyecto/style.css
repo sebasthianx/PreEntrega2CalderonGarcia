@@ -177,3 +177,9 @@ div.reset {
 .p1 {
   text-align: right;
 }
+.animate__slideInLeft {
+  animation-duration: 2s;
+}
+.animate__slideInRight {
+  animation-duration: 2s;
+}
