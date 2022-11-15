@@ -62,8 +62,11 @@
 form {
   width: 10rem;
 }
-.formulario {
-  align-items: center;
+h2.titulocontacto {
+  text-align: right;
+}
+h3.titulocontacto {
+  text-align: right;
 }
 section {
   box-sizing: border-box;
@@ -182,13 +185,21 @@ div.reset {
 }
 .animate__slideInLeft {
   animation-duration: 2s;
+  text-align: justify;
 }
 .animate__slideInRight {
   animation-duration: 2s;
+  text-align: justify;
 }
 .animate__bounceInDown {
   animation-duration: 2s;
 }
 .titulocontacto {
   text-align: center;
+}
+.textocategoria {
+  text-align: justify;
+}
+.textocc {
+  text-align: justify;
 }
