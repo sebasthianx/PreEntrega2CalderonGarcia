@@ -62,6 +62,9 @@
 form {
   width: 10rem;
 }
+.formulario {
+  align-items: center;
+}
 section {
   box-sizing: border-box;
 }
@@ -182,4 +185,10 @@ div.reset {
 }
 .animate__slideInRight {
   animation-duration: 2s;
+}
+.animate__bounceInDown {
+  animation-duration: 2s;
+}
+.titulocontacto {
+  text-align: center;
 }
