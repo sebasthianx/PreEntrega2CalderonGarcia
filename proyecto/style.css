@@ -113,7 +113,7 @@ head {
 .header {
   width: 100%;
   height: 75px;
-  background: #db5461;
+  background: #669bbc;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -152,4 +152,28 @@ head {
 .menu a:hover {
   color: black;
   border-bottom: 4px solid black;
+}
+div.noticia {
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+
+div.noticia img.izquierda {
+  float: left;
+  margin-right: 15px;
+}
+
+div.noticia img.derecha {
+  float: right;
+  margin-left: 15px;
+}
+
+div.reset {
+  clear: both;
+}
+.p1 {
+  text-align: right;
 }
