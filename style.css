@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
-  padding: 35px 0px;
+  padding: 45px 0px;
 }
 .pie-pagina .grupo-1 .box figure {
   width: 100%;
