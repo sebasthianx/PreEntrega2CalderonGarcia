@@ -107,6 +107,7 @@ article button {
 }
 body {
   background-color: #f5edda;
+  background-image: linear-gradient(to right, #f5edda, #f5edda);
 }
 .nav_link {
   color: #051a36;
@@ -168,12 +169,12 @@ div.noticia {
   padding: 5px;
 }
 
-div.noticia img.izquierda {
+div.noticia img.rounded {
   float: left;
   margin-right: 15px;
 }
 
-div.noticia img.derecha {
+div.noticia img.rounded {
   float: right;
   margin-left: 15px;
 }
@@ -188,10 +189,7 @@ div.reset {
   animation-duration: 2s;
   text-align: justify;
 }
-.animate__slideInRight {
-  animation-duration: 2s;
-  text-align: justify;
-}
+
 .animate__bounceInDown {
   animation-duration: 2s;
 }
@@ -203,4 +201,13 @@ div.reset {
 }
 .textocc {
   text-align: justify;
+}
+.nav-bars {
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+
+  display: none;
 }
