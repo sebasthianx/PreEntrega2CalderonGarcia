@@ -5,60 +5,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-.pie-pagina {
-  width: 100%;
-  background-color: #c0d6a8;
-}
-.pie-pagina .grupo-1 {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 45px 0px;
-}
-.pie-pagina .grupo-1 .box figure {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.pie-pagina .grupo-1 .box figure img {
-  width: 200px;
-}
-.pie-pagina .grupo-1 .box h2 {
-  color: black;
-  margin-bottom: 25px;
-  font-size: 25px;
-}
-.pie-pagina .grupo-1 .box p {
-  color: rgb(43, 37, 37);
-  margin-bottom: 10px;
-}
-.pie-pagina .grupo-1 .red-social a {
-  display: inline-block;
-  text-decoration: none;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  color: rgb(85, 79, 79);
-  margin-right: 10px;
-  text-align: center;
-  transition: all 300ms ease;
-}
-.pie-pagina .grupo-1 .red-social a:hover {
-  color: black;
-}
-.pie-pagina .grupo-2 {
-  background-color: #647a4b;
-  padding: 5px 10px;
-  text-align: center;
-}
-.pie-pagina .grupo-2 small {
-  font-size: 15px;
-}
+
 form {
   width: 10rem;
 }
