@@ -4,89 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estructura Basica mas utilizada</title>
+    <title>Document</title>
   </head>
-
   <body>
-    <!-- header con barra de navegacion  -->
-
-    <head>
-      <nav>
-        <ul>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-        </ul>
-      </nav>
-    </head>
-    <!-- fin de header -->
-    <!-- comienza el main (contenido principal de esta pagian) -->
-    <main>
-      <!-- empiezo a seccionar el contenido dentro del main -->
-      <section>
-        <!-- puedo usar el article para identificar una seccion dentro de cada section (unsa seccion dentro de una seccion) -->
-        <article>
-          <h1></h1>
-          <p></p>
-        </article>
-      </section>
-      <!-- puedo crear todas las secciones que necesite -->
-      <section>
-        <h2></h2>
-
-        <!-- puedo utilizar el div para delimitar una seccion dentro de un section -->
-        <div>
-          <!-- las imagenes deben tener una etiqueta padre, en este caso es un div -->
-          <img src="" alt="" />
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #929fba"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Utopía de Libros</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos </a>
+            </li>
+          </ul>
+          <span class="navbar-text"> Frase de lectura </span>
         </div>
-      </section>
-      <section>
-        <!-- vuelvo a poner otra seccion dentro del main esta vez coloco un div con un titulo y un parrafo -->
-        <div>
-          <h3></h3>
-          <p></p>
-        </div>
-      </section>
-    </main>
-    <!-- termina el main -->
-
-    <!-- empieza el footer-->
-    <footer>
-      <!-- el footer es el pie de la pagina, VA SIEMPRE DENTRO DEL BODY POR DEBAJO DEL MAIN. -->
-      <div>
-        <!-- dentro del footer puedo poner un div con una etiqueta parrafo, para poner por ejemplo el copyright  -->
-        <p></p>
       </div>
-      <nav>
-        <!-- puedo volver a poner nav, para indicar que es una zona navegable y que va a tener links (no es obligatorio poner el nav en el footer)-->
-        <ul>
-          <!-- vuelvo a poner una lista, para ordenar mis items -->
-
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-    <!-- cierro el footer -->
+    </nav>
+    <span class="navbar-toggler-icon"></span> -->
   </body>
-  <!-- cierro el body que siempre va a ser la ultima etiqueta en cerrar -->
 </html>
